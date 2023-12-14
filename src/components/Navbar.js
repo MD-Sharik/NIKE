@@ -1,12 +1,14 @@
-import React from 'react'
+import React from "react";
 
 export default function Navbar() {
   return (
-      <div className='navbar'>
-        <ul><li>PRODUCT</li>
-        <li>NFT</li>
-        <li>FAQ</li>
-        <li>FOUNDER</li></ul>
+    <div className="navbar">
+      <ul>
+        <li id="product">PRODUCT</li>
+        <li id="nft">NFT</li>
+        <li id="faq">FAQ</li>
+        <li id="founder">FOUNDER</li>
+      </ul>
     </div>
-  )
+  );
 }
